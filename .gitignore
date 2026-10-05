@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Virtual environment
+.venv/
+
+# Test / lint cache
+.pytest_cache/
+.ruff_cache/
+.coverage
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Local data
+data/
+
+# ML artifacts
+models/
+artifacts/
+mlruns/
+
+# IDE / OS
+.idea/
+.DS_Store
